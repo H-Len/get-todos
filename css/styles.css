@@ -10,11 +10,15 @@ body {
   margin: 15px;
  }
 
+ li {
+   text-align: left;
+ }
+
 .complete {
-  color: grey;
+  color: pink;
   text-decoration: line-through;
 }
 
-.incomplete {
+/* .incomplete {
   color: black;
-}
+} */
