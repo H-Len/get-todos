@@ -1,12 +1,23 @@
 body {
   text-align: center;
+  background-color: #CACFD6;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+ color: #424874;
+ font-family: 'Shadows Into Light', cursive;
+ background-color: #A6B1E1;
+ font-size: 3.5rem;
 }
 
  input {
-  width: 400px;
+  width: 50%;
  }
 
  button {
+  color: #424874;
+  background-color: #D6E5E3;
   margin: 15px;
  }
 
@@ -15,8 +26,19 @@ body {
  }
 
 .complete {
-  color: pink;
+  color: grey;
   text-decoration: line-through;
+}
+
+form {
+  background: #A6B1E1;
+  padding: 40px 0px;
+}
+
+ol {
+  border: 5px #424874 double;
+  background-color: whitesmoke;
+  font-size: 1.5rem;
 }
 
 /* .incomplete {

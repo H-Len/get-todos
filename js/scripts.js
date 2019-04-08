@@ -48,7 +48,7 @@ $(function() {
     var todo = new ToDo(taskInput);
     taskList.addTodo(todo);
     $('input#task').val('');
-    $('ul').append('<li id="'+ todo.id +'">' + taskInput + '</li>');
+    $('ol').append('<li id="'+ todo.id +'">' + taskInput + '</li>');
     console.log(todo.id);
     console.log(taskList);
 
