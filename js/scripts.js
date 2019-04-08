@@ -27,3 +27,20 @@ ToDo.prototype.changeTodoStatus = function() {
 
 
 //UI logic
+$(function() {
+  var tasklist = new TaskList;
+  $("form").submit(function(event) {
+    event.preventDefault();
+    var taskInput = $("input#task").val();
+
+    if (!taskInput) {
+      alert("You must enter a task to submit.")
+    }
+    var todo = new ToDo(taskInput);
+    tasklist.addTodo(todo);
+    $('input#task').val('');
+    $('#incomplete').append('<li>' + taskInput + '</li>');
+
+    $("form").reset();
+  });
+});

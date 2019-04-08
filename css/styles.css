@@ -1,0 +1,20 @@
+body {
+  text-align: center;
+}
+
+ input {
+  width: 400px;
+ }
+
+ button {
+  margin: 15px;
+ }
+
+.complete {
+  color: grey;
+  text-decoration: line-through;
+}
+
+.incomplete {
+  color: black;
+}
